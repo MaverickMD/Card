@@ -1,0 +1,26 @@
+
+
+.main-wrapper{
+    background-color: var(--lime-green);
+    padding: 5px;
+    width: 250px;
+}
+
+.img {
+    background-color: white;
+    height:50%;
+}
+
+#details {
+    padding:5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap:10px;
+}
+
+
+.follow {
+    align-self:flex-end;
+    cursor: pointer;
+}

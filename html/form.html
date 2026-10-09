@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/form.css">
+        <link rel="stylesheet" href="../css/util.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+        <title>
+            Form
+        </title>
+    </head>
+    <body class="flex-center">
+        <form id="signupForm" class="rounded">
+            <h1>Register</h1>
+            <label class="f-start"for="fName">First Name: </label>
+            <input type="text" id="fName" name="fName" placeholder="First Name"/>
+            <label class="f-start"for="lName">Last Name: </label>
+            <input type="text" id="lName" name="lName" placeholder="Last Name"/>
+            <label class="f-start"for="Bio">Bio: </label>
+
+            <textarea id="bio" name="bio" placeholder="list fun facts"></textarea>
+            <button id="submitBtn" type="submit" class="btn">Submit</button>
+        </form>
+        <script type="module" src="../js/app.js"></script>
+    </body>
+</html>
